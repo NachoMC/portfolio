@@ -1,0 +1,247 @@
+
+/* general */
+.section-bg {
+    background: linear-gradient(#1d293a, #151f2d);
+}
+
+#main {
+    background-color: #1d293a !important;
+}
+
+.section-title h2 {
+    color: #6182a0 !important;
+}
+
+    .section-title h2::after {
+        background: #6182a0 !important;
+    }
+
+h1, h2, h3, h4, h5, .skills .progress .skill {
+    color: #e8e8ea !important;
+}
+
+p, ul {
+    color: #b5b7c4 !important;
+}
+
+.section-container {
+    padding-left: 3rem !important;
+    padding-right: 3rem !important;
+}
+
+.justified-txt {
+    text-align: justify !important;
+}
+
+.present {
+    font-size: 0.8rem !important;
+    font-weight: bold !important;
+}
+
+.hidden {
+    visibility: hidden !important;
+}
+
+/* navbar */
+.nav-menu {
+    padding: 6rem 0 0 3.75rem;
+}
+
+.nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
+    color: #3e7fbf !important;
+}
+
+#header .profile .social-links a:hover {
+    background: #244a6f !important;
+}
+
+.social-links .bx {
+    font-size: 1.3rem !important;
+    color: #3e7fbf !important;
+}
+
+#header .profile h1 {
+    font-size: 1.25rem !important;
+}
+
+#header .profile img {
+    width: 12rem !important;
+    border: 6px solid #152335 !important;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+}
+
+.navbar-desc {
+    text-align: center !important;
+    margin-top: 0.5rem !important;
+}
+
+/* portfolio */
+.portfolio-row {
+    padding-top: 4rem !important;
+    padding-bottom: 5rem !important;
+}
+
+.portfolio-mid-row {
+    padding-top: 1rem !important;
+}
+
+.portfolio-icon .bx {
+    font-size: 1.5rem !important;
+    margin: 0.5rem 0.25rem 0 0 !important;
+    position: relative !important;
+    top: 0.3rem !important;
+}
+
+.portfolio-icon {
+    color: #3e7fbf !important;
+}
+
+    .portfolio-icon:hover {
+        color: #59a6f2 !important;
+    }
+
+
+.portfolio-under-video {
+    padding-left: 1rem !important;
+}
+
+.portfolio-under-video-right {
+    position: absolute !important;
+    right: 2rem !important;
+    margin-top: -0.5rem !important;
+}
+
+.vid {
+    width: 98%;
+}
+
+.vid-mid {
+    width: 100%;
+}
+
+/* resume */
+.resume .resume-item h5 {
+    background: #2e425e !important;
+}
+
+.resume .resume-item::before {
+    background: #151f2d !important;
+    border: 2px solid #5179ae !important;
+}
+
+.resume .resume-item {
+    border-left: 2px solid #5179ae !important;
+}
+
+.resume .resume-title {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.about-icon {
+    font-size: 1.25rem !important;
+    top: 0.1rem !important;
+    position: relative !important;
+    margin-right: 0.5rem !important;
+}
+
+.about-txt {
+    padding-right: 4rem !important;
+}
+
+.skills .progress-bar-wrap {
+    background: #1a589533 !important;
+}
+
+.contact {
+    padding-bottom: 0 !important;
+}
+
+.skill-container {
+    padding: 0.5rem !important;
+}
+
+.skill-content {
+    padding: 1rem !important;
+    background: linear-gradient(#2e425e96, #2e425e00) !important;
+}
+
+.skill-text p {
+    padding: 0 !important;
+}
+
+.skill-img {
+    width: 4rem !important;
+    height: 4rem !important;
+    margin-left: auto !important;
+}
+
+.exp-content {
+    padding: 0.5rem !important;
+    background: linear-gradient(#2e425e96, #2e425e00) !important;
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.resume-link {
+    color: #b5b7c4 !important;
+    font-size: 1.5rem !important;
+    position: relative !important;
+    margin-left: 1rem !important;
+    top: 0.25rem !important;
+}
+
+.resume-link:hover {
+    color: #627588 !important;
+}
+
+.resume .resume-item ul {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+.resume-img {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+}
+
+.resume-info {
+    font-family: "Poppins", sans-serif !important;
+}
+
+    .resume-info h4 {
+        font-size: 18px !important;
+        font-family: "Poppins", sans-serif !important;
+    }
+
+    .skill-text h4 {
+        padding: 0 !important;
+        font-size: 18px !important;
+        font-family: "Poppins", sans-serif !important;
+    }
+
+.info-container {
+    padding: 0 1rem 0 1rem !important;
+}
+
+.language {
+    border-left: 2px solid #5179ae !important;
+}
+
+.language-img {
+    width: 6rem !important;
+    height: 3rem !important;
+    margin-top: 0.5rem !important;
+}
+
+.language-txt {
+    margin-top: 0.5rem !important;
+}
+
+    .language-txt p {
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+    }
