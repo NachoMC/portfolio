@@ -42,6 +42,10 @@ p, ul {
     visibility: hidden !important;
 }
 
+.pb2 {
+    padding-bottom: 2rem !important;
+}
+
 /* navbar */
 .nav-menu {
     padding: 6rem 0 0 3.75rem;
@@ -79,9 +83,13 @@ p, ul {
 }
 
 /* portfolio */
-.portfolio-row {
+.portfolio {
     padding-top: 4rem !important;
-    padding-bottom: 5rem !important;
+    padding-bottom: 0 !important;
+}
+
+.portfolio-row {
+    padding-bottom: 10rem !important;
 }
 
 .portfolio-mid-row {
@@ -109,9 +117,9 @@ p, ul {
 }
 
 .portfolio-under-video-right {
-    position: absolute !important;
-    right: 2rem !important;
-    margin-top: -0.5rem !important;
+    padding-right: 2rem !important;
+    position: relative !important;
+    top: -0.75rem !important;
 }
 
 .vid {
@@ -173,10 +181,33 @@ p, ul {
     padding: 0 !important;
 }
 
+.skill-text-1 {
+    width: 80% !important;
+}
+
+.skill-text-2 {
+    width: 65% !important;
+}
+
+.skill-img-container {
+    width: 20% !important;
+    margin-left: auto !important;
+}
+
+.skill-2-img-container {
+    width: 35% !important;
+    margin-left: auto !important;
+}
+
 .skill-img {
     width: 4rem !important;
     height: 4rem !important;
     margin-left: auto !important;
+}
+
+.skill-img-2 {
+    width: 4rem !important;
+    height: 4rem !important;
 }
 
 .exp-content {
@@ -184,6 +215,14 @@ p, ul {
     background: linear-gradient(#2e425e96, #2e425e00) !important;
     width: 100% !important;
     margin: 0 !important;
+}
+
+.exp-img {
+    width: auto !important;
+}
+
+.exp-title {
+    width: 80% !important;
 }
 
 .resume-link {
@@ -224,7 +263,7 @@ p, ul {
     }
 
 .info-container {
-    padding: 0 1rem 0 1rem !important;
+    padding-left: 1rem !important;
 }
 
 .language {
@@ -232,7 +271,7 @@ p, ul {
 }
 
 .language-img {
-    width: 6rem !important;
+    width: 4.5rem !important;
     height: 3rem !important;
     margin-top: 0.5rem !important;
 }
@@ -245,3 +284,15 @@ p, ul {
         margin-bottom: 0 !important;
         padding-bottom: 0 !important;
     }
+
+.language-title {
+    width: 60% !important;
+}
+
+.contact .info h4 {
+    padding-left: 0 !important;
+}
+
+.contact .info p {
+    padding-left: 0 !important;
+}
