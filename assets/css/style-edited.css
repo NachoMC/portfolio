@@ -89,6 +89,7 @@ p, ul {
 }
 
 .portfolio-row {
+    padding-top: 1rem !important;
     padding-bottom: 10rem !important;
 }
 
@@ -122,8 +123,19 @@ p, ul {
     top: -0.75rem !important;
 }
 
+.vid-container {
+    float: left !important;
+    width: 100% !important;
+    height: 0 !important;
+    padding-bottom: 56.25% !important;
+    position: relative !important;
+}
+
 .vid {
-    width: 98%;
+    width: 98% !important;
+    height: 96% !important;
+    position: absolute !important;
+    padding-right: 1rem !important;
 }
 
 .vid-mid {
