@@ -115,6 +115,7 @@ p, ul {
 
 .portfolio-under-video {
     padding-left: 1rem !important;
+    padding-top: 0.5rem !important;
 }
 
 .portfolio-under-video-right {
@@ -132,14 +133,14 @@ p, ul {
 }
 
 .vid {
-    width: 98% !important;
-    height: 96% !important;
     position: absolute !important;
-    padding-right: 1rem !important;
+    width: 100% !important;
+    height: 100% !important;
 }
 
-.vid-mid {
-    width: 100%;
+.vid-main {
+    padding-right: 2rem !important;
+    padding-bottom: 1rem !important;
 }
 
 /* resume */
