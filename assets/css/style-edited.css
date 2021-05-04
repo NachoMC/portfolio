@@ -55,9 +55,9 @@ p, ul {
     padding: 6rem 0 0 3.75rem;
 }
 
-.nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
-    color: #3e7fbf !important;
-}
+    .nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
+        color: #3e7fbf !important;
+    }
 
 #header .profile .social-links a:hover {
     background: #244a6f !important;
@@ -250,9 +250,9 @@ p, ul {
     top: 0.25rem !important;
 }
 
-.resume-link:hover {
-    color: #627588 !important;
-}
+    .resume-link:hover {
+        color: #627588 !important;
+    }
 
 .resume .resume-item ul {
     padding-left: 2rem !important;
@@ -273,11 +273,11 @@ p, ul {
         font-family: "Poppins", sans-serif !important;
     }
 
-    .skill-text h4 {
-        padding: 0 !important;
-        font-size: 18px !important;
-        font-family: "Poppins", sans-serif !important;
-    }
+.skill-text h4 {
+    padding: 0 !important;
+    font-size: 18px !important;
+    font-family: "Poppins", sans-serif !important;
+}
 
 .info-container {
     padding-left: 1rem !important;
@@ -288,19 +288,15 @@ p, ul {
 }
 
 .language-img {
-    width: 4.5rem !important;
-    height: 3rem !important;
+    width: 3rem !important;
+    height: 2rem !important;
     margin-top: 0.5rem !important;
 }
 
-.language-txt {
-    margin-top: 0.5rem !important;
+.language-txt p {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
 }
-
-    .language-txt p {
-        margin-bottom: 0 !important;
-        padding-bottom: 0 !important;
-    }
 
 .language-title {
     width: 60% !important;
