@@ -1,7 +1,7 @@
 
 /* general */
 .section-bg {
-    background: linear-gradient(#1d293a, #151f2d);
+    background: linear-gradient(#121722, #0c1018) !important;
 }
 
 #main {
@@ -47,6 +47,10 @@ p, ul {
 }
 
 /* navbar */
+#header, #footer {
+    background: #080c13 !important;
+}
+
 .nav-menu {
     padding: 6rem 0 0 3.75rem;
 }
@@ -145,16 +149,16 @@ p, ul {
 
 /* resume */
 .resume .resume-item h5 {
-    background: #2e425e !important;
+    background: #1e2535 !important;
 }
 
 .resume .resume-item::before {
     background: #151f2d !important;
-    border: 2px solid #5179ae !important;
+    border: 2px solid #565f75 !important;
 }
 
 .resume .resume-item {
-    border-left: 2px solid #5179ae !important;
+    border-left: 2px solid #565f75 !important;
 }
 
 .resume .resume-title {
@@ -187,7 +191,7 @@ p, ul {
 
 .skill-content {
     padding: 1rem !important;
-    background: linear-gradient(#2e425e96, #2e425e00) !important;
+    background: linear-gradient(#1e2535, #2e425e00) !important;
 }
 
 .skill-text p {
@@ -225,7 +229,7 @@ p, ul {
 
 .exp-content {
     padding: 0.5rem !important;
-    background: linear-gradient(#2e425e96, #2e425e00) !important;
+    background: linear-gradient(#1e2535, #2e425e00) !important;
     width: 100% !important;
     margin: 0 !important;
 }
@@ -280,7 +284,7 @@ p, ul {
 }
 
 .language {
-    border-left: 2px solid #5179ae !important;
+    border-left: 2px solid #565f75 !important;
 }
 
 .language-img {
