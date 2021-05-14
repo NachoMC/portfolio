@@ -1,7 +1,7 @@
 
 /* general */
 .section-bg {
-    background: linear-gradient(#121722, #0c1018) !important;
+    background: linear-gradient(#090c10, #0e131a) !important;
 }
 
 #main {
@@ -9,11 +9,11 @@
 }
 
 .section-title h2 {
-    color: #6182a0 !important;
+    color: #8d98a8 !important;
 }
 
     .section-title h2::after {
-        background: #6182a0 !important;
+        background: #8d98a8 !important;
     }
 
 h1, h2, h3, h4, h5, .skills .progress .skill {
@@ -48,7 +48,7 @@ p, ul {
 
 /* navbar */
 #header, #footer {
-    background: #080c13 !important;
+    background: #131820 !important;
 }
 
 .nav-menu {
@@ -149,7 +149,7 @@ p, ul {
 
 /* resume */
 .resume .resume-item h5 {
-    background: #1e2535 !important;
+    background: #1a212b !important;
 }
 
 .resume .resume-item::before {
@@ -191,7 +191,7 @@ p, ul {
 
 .skill-content {
     padding: 1rem !important;
-    background: linear-gradient(#1e2535, #2e425e00) !important;
+    background: linear-gradient(#1a212b, #2e425e00) !important;
 }
 
 .skill-text p {
@@ -229,7 +229,7 @@ p, ul {
 
 .exp-content {
     padding: 0.5rem !important;
-    background: linear-gradient(#1e2535, #2e425e00) !important;
+    background: linear-gradient(#1a212b, #2e425e00) !important;
     width: 100% !important;
     margin: 0 !important;
 }
