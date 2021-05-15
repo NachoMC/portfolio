@@ -56,7 +56,7 @@ p, ul {
 }
 
     .nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
-        color: #3e7fbf !important;
+        color: #4e84b9 !important;
     }
 
 #header .profile .social-links a:hover {
@@ -65,7 +65,7 @@ p, ul {
 
 .social-links .bx {
     font-size: 1.3rem !important;
-    color: #3e7fbf !important;
+    color: #4e84b9 !important;
 }
 
 #header .profile h1 {
@@ -109,7 +109,7 @@ p, ul {
 }
 
 .portfolio-icon {
-    color: #3e7fbf !important;
+    color: #4e84b9 !important;
 }
 
     .portfolio-icon:hover {
