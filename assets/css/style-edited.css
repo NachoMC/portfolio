@@ -309,3 +309,18 @@ p, ul {
 .contact .info p {
     padding-left: 0 !important;
 }
+
+
+/* pdf */
+
+.header-txt {
+    font-size: 0.9rem !important;
+}
+
+.header-link {
+    color: #4e84b9 !important;
+}
+
+.header-link:hover {
+    color: #59a6f2 !important;
+}
