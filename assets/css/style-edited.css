@@ -20,7 +20,7 @@ h1, h2, h3, h4, h5, .skills .progress .skill {
     color: #e8e8ea !important;
 }
 
-p, ul {
+p, ul, span {
     color: #b5b7c4 !important;
 }
 
@@ -323,4 +323,21 @@ p, ul {
 
 .header-link:hover {
     color: #59a6f2 !important;
+}
+
+
+/* icon colors */
+
+.icon-color-0 {
+    color: #4e84b9 !important;
+}
+
+.icon-color-1 {
+    background-image: linear-gradient(to bottom, #6600ff 0%, #ff9933 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.icon-color-2 {
+    color: #6c94bb !important;
 }
