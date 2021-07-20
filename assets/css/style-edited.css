@@ -341,3 +341,7 @@ p, ul, span {
 .icon-color-2 {
     color: #6c94bb !important;
 }
+
+.icon-color-3 {
+    color: darkred !important;
+}
