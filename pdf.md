@@ -3,4 +3,4 @@
 
 [edit pdf](https://www.sejda.com/es/pdf-editor)
 
-[crop pdf](https://pdfresizer.com/crop)
+[crop pdf](https://www.sejda.com/es/crop-pdf)
