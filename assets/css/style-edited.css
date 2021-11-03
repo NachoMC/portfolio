@@ -6,15 +6,31 @@
 
 #main {
     background-color: #1d293a !important;
+    margin-left: 0 !important;
+}
+
+.intro-main {
+    font-weight: bold !important;
+    margin-top: 3rem !important;
+    margin-bottom: 1rem !important;
+}
+
+.intro-sub {
+    color: #7a8793 !important;
+    margin-bottom: 10rem !important;
+}
+
+.intro-right {
+    margin-top: 3rem !important;
 }
 
 .section-title h2 {
-    color: #8d98a8 !important;
-    font-size: 2.5rem;
+    color: #687a8a !important;
+    font-size: 2.5rem !important;
 }
 
     .section-title h2::after {
-        background: #8d98a8 !important;
+        background: #687a8a !important;
     }
 
 h1, h2, h3, h4, h5, .skills .progress .skill {
@@ -47,35 +63,9 @@ p, ul, span {
     padding-bottom: 2rem !important;
 }
 
-/* navbar */
-#header, #footer {
-    background: #131820 !important;
-}
-
-.nav-menu {
-    padding: 6rem 0 0 3.75rem;
-}
-
-    .nav-menu a:hover i, .nav-menu .active i, .nav-menu li:hover > a i {
-        color: #4e84b9 !important;
-    }
-
-#header .profile .social-links a:hover {
-    background: #244a6f !important;
-}
-
 .social-links .bx {
     font-size: 1.3rem !important;
     color: #4e84b9 !important;
-}
-
-#header .profile h1 {
-    font-size: 1.25rem !important;
-}
-
-#header .profile img {
-    width: 12rem !important;
-    border: 6px solid #152335 !important;
 }
 
 .rounded-circle {
@@ -91,6 +81,10 @@ p, ul, span {
 .portfolio {
     padding-top: 4rem !important;
     padding-bottom: 0 !important;
+}
+
+.portfolio-title {
+    font-weight: bold !important;
 }
 
 .portfolio-row {
@@ -114,19 +108,20 @@ p, ul, span {
 }
 
     .portfolio-icon:hover {
-        color: #59a6f2 !important;
+        color: #58a6ff !important;
     }
 
-
-.portfolio-under-video {
-    padding-left: 1rem !important;
-    padding-top: 0.5rem !important;
+.intro-icon {
+    color: #4e84b9 !important;
 }
 
-.portfolio-under-video-right {
-    padding-right: 2rem !important;
-    position: relative !important;
-    top: -0.75rem !important;
+    .intro-icon:hover {
+        color: #58a6ff !important;
+    }
+
+.portfolio-right {
+    padding-left: 1.5rem !important;
+    padding-top: 1rem !important;
 }
 
 .vid-container {
@@ -151,6 +146,7 @@ p, ul, span {
 /* resume */
 .resume .resume-item h5 {
     background: #1a212b !important;
+    border-radius: 0.2rem;
 }
 
 .resume .resume-item::before {
@@ -184,6 +180,7 @@ p, ul, span {
 
 .contact {
     padding-bottom: 0 !important;
+    border-radius: 0.2rem;
 }
 
 .skill-container {
@@ -233,6 +230,7 @@ p, ul, span {
     background: linear-gradient(#1a212b, #2e425e00) !important;
     width: 100% !important;
     margin: 0 !important;
+    border-radius: 0.2rem;
 }
 
 .exp-img {
@@ -303,6 +301,10 @@ p, ul, span {
     width: 60% !important;
 }
 
+.contact .info {
+    border-radius: 0.2rem !important;
+}
+
 .contact .info h4 {
     padding-left: 0 !important;
 }
@@ -323,7 +325,7 @@ p, ul, span {
 }
 
 .header-link:hover {
-    color: #59a6f2 !important;
+    color: #58a6ff !important;
 }
 
 
