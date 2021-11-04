@@ -9,19 +9,22 @@
     margin-left: 0 !important;
 }
 
+.intro {
+    margin-top: 3rem !important;
+}
+
 .intro-main {
     font-weight: bold !important;
-    margin-top: 3rem !important;
     margin-bottom: 1rem !important;
 }
 
 .intro-sub {
     color: #7a8793 !important;
-    margin-bottom: 10rem !important;
+    margin-bottom: 8rem !important;
 }
 
 .intro-right {
-    margin-top: 3rem !important;
+    margin-bottom: 8rem !important;
 }
 
 .section-title h2 {
