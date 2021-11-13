@@ -149,7 +149,7 @@ p, ul, span {
 /* resume */
 .resume .resume-item h5 {
     background: #1a212b !important;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem !important;
 }
 
 .resume .resume-item::before {
@@ -183,7 +183,7 @@ p, ul, span {
 
 .contact {
     padding-bottom: 0 !important;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem !important;
 }
 
 .skill-container {
@@ -233,7 +233,7 @@ p, ul, span {
     background: linear-gradient(#1a212b, #2e425e00) !important;
     width: 100% !important;
     margin: 0 !important;
-    border-radius: 0.2rem;
+    border-radius: 0.4rem !important;
 }
 
 .exp-img {
@@ -305,7 +305,7 @@ p, ul, span {
 }
 
 .contact .info {
-    border-radius: 0.2rem !important;
+    border-radius: 0.4rem !important;
 }
 
 .contact .info h4 {
