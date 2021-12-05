@@ -18,13 +18,21 @@
     margin-bottom: 1rem !important;
 }
 
-.intro-sub {
+.color-sub {
     color: #7a8793 !important;
+}
+
+.intro-sub {
     margin-bottom: 8rem !important;
 }
 
 .intro-right {
     margin-bottom: 8rem !important;
+}
+
+.section-title {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
 }
 
 .section-title h2 {
@@ -159,11 +167,59 @@ p, ul, span {
 
 .resume .resume-item {
     border-left: 2px solid #565f75 !important;
+    margin-left: 2.5rem !important;
+    padding-bottom: 0;
+}
+
+.resume-item-1 {
+    margin-bottom: 5rem !important;
+    margin-top: 0.5rem !important;
+}
+
+.resume-item-join {
+    padding-bottom: 3rem !important;
+}
+
+.resume-item-join-first {
+    margin-top: 0.5rem !important;
+}
+
+.resume-item-join-last {
+    padding-bottom: 0rem !important;
+    margin-bottom: 4rem !important;
 }
 
 .resume .resume-title {
-    margin-top: 4rem;
-    margin-bottom: 1rem;
+    font-size: 1.75rem !important;
+    margin-top: 5rem !important;
+    margin-bottom: 2rem !important;
+}
+
+.resume .resume-item ul {
+    padding-left: 3.5rem !important;
+    padding-right: 2rem !important;
+}
+
+.resume .ed-item {
+    margin-bottom: 3rem !important;
+}
+
+.resume .ed-item ul {
+    padding-left: 3.5rem !important;
+    padding-right: 2rem !important;
+}
+
+.resume .ed-item ul li {
+    padding-bottom: 10px;
+}
+
+.rol {
+    padding-left: 1.5rem !important;
+    padding-bottom: 0.5rem !important;
+}
+
+.course-item {
+    margin-bottom: 1rem !important;
 }
 
 .about-icon {
@@ -256,14 +312,25 @@ p, ul, span {
         color: #627588 !important;
     }
 
-.resume .resume-item ul {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-}
-
 .resume-img {
     width: 3.5rem !important;
     height: 3.5rem !important;
+    margin-top: 0.2rem !important;
+}
+
+.ed-img {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+    margin-top: 0.8rem !important;
+}
+
+.ed-1 {
+    margin-bottom: 0.1rem !important;
+}
+
+.course-img {
+    width: 3.5rem !important;
+    height: 2rem !important;
 }
 
 .resume-info {
