@@ -1,5 +1,9 @@
 
 /* general */
+body, h1, h2, h3, h4, h5, h6, #header .profile h1, #hero p, .facts .count-box p, .facts .count-box a, .skills .progress .skill, .resume .resume-item h4 {
+    font-family: "Open Sans", sans-serif;
+}
+
 .section-bg {
     background: linear-gradient(#090c10, #0e131a) !important;
 }
@@ -37,7 +41,7 @@
 
 .section-title h2 {
     color: #687a8a !important;
-    font-size: 2.5rem !important;
+    font-size: 2.25rem !important;
 }
 
     .section-title h2::after {
@@ -333,19 +337,13 @@ p, ul, span {
     height: 2rem !important;
 }
 
-.resume-info {
-    font-family: "Poppins", sans-serif !important;
-}
-
     .resume-info h4 {
         font-size: 18px !important;
-        font-family: "Poppins", sans-serif !important;
     }
 
 .skill-text h4 {
     padding: 0 !important;
     font-size: 18px !important;
-    font-family: "Poppins", sans-serif !important;
 }
 
 .info-container {
