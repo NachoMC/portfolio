@@ -171,13 +171,12 @@ p, ul, span {
 
 .resume .resume-item {
     border-left: 2px solid #565f75 !important;
-    margin-left: 2.5rem !important;
-    padding-bottom: 0;
+    margin-left: 2.25rem !important;
 }
 
 .resume-item-1 {
-    margin-bottom: 5rem !important;
     margin-top: 0.5rem !important;
+    margin-bottom: 3rem !important;
 }
 
 .resume-item-join {
@@ -186,11 +185,13 @@ p, ul, span {
 
 .resume-item-join-first {
     margin-top: 0.5rem !important;
+    padding-bottom: 1.5rem !important;
 }
 
 .resume-item-join-last {
+    margin-top: 0rem !important;
     padding-bottom: 0rem !important;
-    margin-bottom: 4rem !important;
+    margin-bottom: 3rem !important;
 }
 
 .resume .resume-title {
@@ -199,18 +200,26 @@ p, ul, span {
     margin-bottom: 2rem !important;
 }
 
-.resume .resume-item ul {
-    padding-left: 3.5rem !important;
-    padding-right: 2rem !important;
+.resume-title-line {
+    color: white !important;
+    margin-top: -0.5rem !important;
+    margin-left: 0.5rem !important;
+    background: linear-gradient(to right, #565f75, #2e425e00) !important;
+    height: 2.5px !important;
 }
 
 .resume .ed-item {
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
+    margin-top: 0.5rem !important;
 }
 
 .resume .ed-item ul {
-    padding-left: 3.5rem !important;
+    padding-left: 2.5rem !important;
     padding-right: 2rem !important;
+}
+
+.resume .resume-item ul {
+    padding-left: 3.5rem !important;
 }
 
 .resume .ed-item ul li {
@@ -218,7 +227,7 @@ p, ul, span {
 }
 
 .rol {
-    padding-left: 1.5rem !important;
+    padding-left: 1rem !important;
     padding-bottom: 0.5rem !important;
 }
 
