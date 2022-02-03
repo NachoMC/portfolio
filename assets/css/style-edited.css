@@ -172,6 +172,7 @@ p, ul, span {
 .resume .resume-item {
     border-left: 2px solid #565f75 !important;
     margin-left: 2.25rem !important;
+    padding-right: 6rem !important;
 }
 
 .resume-item-1 {
