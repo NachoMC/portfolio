@@ -261,41 +261,27 @@ p, ul, span {
 }
 
 .skill-content {
-    padding: 1rem !important;
+    padding: 1.75rem !important;
     background: linear-gradient(#1a212b, #2e425e00) !important;
 }
 
-.skill-text p {
-    padding: 0 !important;
+.skill-title {
+    margin-bottom: 1rem !important;
 }
 
-.skill-text-1 {
-    width: 80% !important;
-}
-
-.skill-text-2 {
-    width: 65% !important;
-}
-
-.skill-img-container {
-    width: 20% !important;
-    margin-left: auto !important;
-}
-
-.skill-2-img-container {
-    width: 35% !important;
-    margin-left: auto !important;
+.skill-text {
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0.25rem !important;
+    font-size: 0.95rem !important;
 }
 
 .skill-img {
     width: 4rem !important;
     height: 4rem !important;
-    margin-left: auto !important;
-}
-
-.skill-img-2 {
-    width: 4rem !important;
-    height: 4rem !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 0.75rem !important;
 }
 
 .exp-content {
