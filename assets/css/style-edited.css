@@ -136,7 +136,6 @@ p, ul, span {
 
 .portfolio-right {
     padding-left: 1.5rem !important;
-    padding-top: 1rem !important;
 }
 
 .vid-container {
@@ -156,6 +155,15 @@ p, ul, span {
 .vid-main {
     padding-right: 2rem !important;
     padding-bottom: 1rem !important;
+}
+
+.vid-portfolio {
+    margin-bottom: 1rem;
+}
+
+.stb-right-links {
+    margin-top: -0.7rem !important;
+    font-size: 0.95rem !important;
 }
 
 /* resume */
@@ -207,6 +215,58 @@ p, ul, span {
     margin-left: 0.5rem !important;
     background: linear-gradient(to right, #565f75, #2e425e00) !important;
     height: 2.5px !important;
+}
+
+.t-line {
+    color: white !important;
+    margin-top: -1.3rem !important;
+    background: linear-gradient(to right, #687a8a, #2e425e00) !important;
+    height: 2.5px !important;
+    opacity: 1;
+    margin-bottom: 2.5rem;
+}
+
+.tt-line {
+    margin-left: 31rem !important;
+    width: 60rem;
+}
+
+.sb-line {
+    margin-left: 11rem !important;
+    width: 80rem;
+}
+
+.right-img-1 {
+    width: 3rem !important;
+    height: 3rem !important;
+    margin-right: 0.5rem;
+}
+
+.right-img-2 {
+    width: 10rem !important;
+    height: 5rem !important;
+    margin-right: 0.5rem;
+}
+
+.right-img-ue {
+    width: 8rem !important;
+    height: 4rem !important;
+    margin-right: 0.5rem;
+    margin-left: -0.6rem;
+}
+
+.right-space {
+    margin-bottom: 2rem;
+}
+
+.platform-img {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    margin-right: 1rem;
+}
+
+.st-title {
+    margin-bottom: 1rem !important;
 }
 
 .resume .ed-item {
