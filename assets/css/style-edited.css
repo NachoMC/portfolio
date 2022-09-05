@@ -161,11 +161,6 @@ p, ul, span {
     margin-bottom: 1rem;
 }
 
-.stb-right-links {
-    margin-top: -0.7rem !important;
-    font-size: 0.95rem !important;
-}
-
 /* resume */
 .resume .resume-item h5 {
     background: #1a212b !important;
@@ -217,23 +212,14 @@ p, ul, span {
     height: 2.5px !important;
 }
 
-.t-line {
+.portfolio-sep-line {
     color: white !important;
-    margin-top: -1.3rem !important;
-    background: linear-gradient(to right, #687a8a, #2e425e00) !important;
+    background: linear-gradient(to right, #2e425e00, #687a8a, #2e425e00) !important;
     height: 2.5px !important;
     opacity: 1;
-    margin-bottom: 2.5rem;
-}
-
-.tt-line {
-    margin-left: 31rem !important;
-    width: 60rem;
-}
-
-.sb-line {
-    margin-left: 11rem !important;
-    width: 80rem;
+    margin-top: 10rem !important;
+    margin-bottom: 10rem !important;
+    width: 100%;
 }
 
 .right-img-1 {
@@ -386,6 +372,29 @@ p, ul, span {
 
 .ed-1 {
     margin-bottom: 0.1rem !important;
+}
+
+.img-width-height-100 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1rem;
+}
+
+.img-width-100 {
+    width: 100%;
+    padding-bottom: 1rem;
+}
+
+.mr3 {
+    margin-right: 3rem;
+}
+
+.mr4 {
+    margin-right: 4rem;
+}
+
+.mr5 {
+    margin-right: 5rem;
 }
 
 .course-img {
