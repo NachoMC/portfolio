@@ -35,17 +35,21 @@ body, h1, h2, h3, h4, h5, h6, #header .profile h1, #hero p, .facts .count-box p,
 }
 
 .section-title {
-    padding-top: 2rem !important;
     padding-bottom: 2rem !important;
 }
 
 .section-title h2 {
     color: #687a8a !important;
-    font-size: 2.25rem !important;
+    font-size: 3rem !important;
+    background: linear-gradient(270deg, #090c10 0%, #0f151e 90%, #090c10 100%);
+    padding: 2rem;
+    padding-left: 2rem;
+    left: -2rem;
+    padding-left: 5rem;
 }
 
     .section-title h2::after {
-        background: #687a8a !important;
+        display: none;
     }
 
 h1, h2, h3, h4, h5, .skills .progress .skill {
@@ -234,21 +238,40 @@ p, ul, span {
     margin-right: 0.5rem;
 }
 
-.right-img-ue {
-    width: 8rem !important;
-    height: 4rem !important;
+.right-img-pendulo {
+    width: 50% !important;
+    height: 25% !important;
     margin-right: 0.5rem;
-    margin-left: -0.6rem;
+}
+
+.right-img-ue-tt {
+    width: 40% !important;
+    height: 20% !important;
+    margin-right: 0.5rem;
+    margin-left: -0.4rem;
+}
+
+.right-img-ue-st {
+    width: 16% !important;
+    height: 8% !important;
+    margin-right: 0.5rem;
+    margin-left: -0.4rem;
 }
 
 .right-space {
     margin-bottom: 2rem;
 }
 
-.platform-img {
-    width: 2rem !important;
-    height: 2rem !important;
-    margin-right: 0.75rem;
+.platform-img-tt {
+    width: 9% !important;
+    height: 9% !important;
+    margin: 0.5rem;
+}
+
+.platform-img-st {
+    width: 4% !important;
+    height: 4% !important;
+    margin: 0.5rem;
 }
 
 .st-title {
@@ -397,6 +420,18 @@ p, ul, span {
     margin-right: 5rem;
 }
 
+.mb2 {
+    margin-bottom: 2rem;
+}
+
+.mt2 {
+    margin-top: 2rem;
+}
+
+.maxw33 {
+    max-width: 33.33%;
+}
+
 .course-img {
     width: 3.5rem !important;
     height: 2rem !important;
@@ -484,4 +519,24 @@ p, ul, span {
 
 .icon-color-4 {
     color: #b96060 !important;
+}
+
+.col10 {
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+}
+
+.col8 {
+    margin-left: 16.66%;
+    margin-right: 16.66%;
+}
+
+.col7 {
+    margin-left: 20.83%;
+    margin-right: 20.83%;
+}
+
+.col6 {
+    margin-left: 25%;
+    margin-right: 25%;
 }
