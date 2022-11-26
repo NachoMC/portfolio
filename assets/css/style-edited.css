@@ -247,15 +247,15 @@ p, ul, span {
 .right-img-ue-tt {
     width: 40% !important;
     height: 20% !important;
-    margin-right: 0.5rem;
-    margin-left: -0.4rem;
+    margin-right: 3% !important;
+    margin-left: -2% !important;
 }
 
 .right-img-ue-st {
     width: 16% !important;
     height: 8% !important;
-    margin-right: 0.5rem;
-    margin-left: -0.4rem;
+    margin-right: 3% !important;
+    margin-left: 1% !important;
 }
 
 .right-space {
@@ -265,13 +265,13 @@ p, ul, span {
 .platform-img-tt {
     width: 9% !important;
     height: 9% !important;
-    margin: 0.5rem;
+    margin: 3% !important;
 }
 
 .platform-img-st {
     width: 4% !important;
     height: 4% !important;
-    margin: 0.5rem;
+    margin: 3% !important;
 }
 
 .st-title {
@@ -422,6 +422,14 @@ p, ul, span {
 
 .mb2 {
     margin-bottom: 2rem;
+}
+
+.mb12p {
+    margin-bottom: 12%;
+}
+
+.mb10p {
+    margin-bottom: 10%;
 }
 
 .mt2 {
