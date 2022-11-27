@@ -1,4 +1,54 @@
 
+/* header */
+.header-bg {
+    background: linear-gradient(#090c10, #1b2431) !important;
+}
+
+#intro {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    padding: 1rem 2rem 1rem 2rem !important;
+}
+
+.intro {
+    font-size: 0.75rem !important;
+}
+
+.intro-main {
+    font-weight: bold !important;
+    margin-bottom: 1rem !important;
+}
+
+.intro-sub {
+    margin-bottom: 8rem !important;
+}
+
+.intro-right {
+    margin-bottom: 0.5rem !important;
+}
+
+#intro h1 {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+#intro h4 {
+    font-size: 0.75rem !important;
+    margin-bottom: 0 !important;
+}
+
+#intro p {
+    margin-bottom: 0 !important;
+}
+
+.header-sub-row {
+    width: auto;
+    margin-right: 1rem;
+}
+
+
 /* general */
 body, h1, h2, h3, h4, h5, h6, #header .profile h1, #hero p, .facts .count-box p, .facts .count-box a, .skills .progress .skill, .resume .resume-item h4 {
     font-family: "Open Sans", sans-serif;
@@ -13,25 +63,8 @@ body, h1, h2, h3, h4, h5, h6, #header .profile h1, #hero p, .facts .count-box p,
     margin-left: 0 !important;
 }
 
-.intro {
-    margin-top: 3rem !important;
-}
-
-.intro-main {
-    font-weight: bold !important;
-    margin-bottom: 1rem !important;
-}
-
 .color-sub {
     color: #7a8793 !important;
-}
-
-.intro-sub {
-    margin-bottom: 8rem !important;
-}
-
-.intro-right {
-    margin-bottom: 8rem !important;
 }
 
 .section-title {
@@ -41,7 +74,7 @@ body, h1, h2, h3, h4, h5, h6, #header .profile h1, #hero p, .facts .count-box p,
 .section-title h2 {
     color: #687a8a !important;
     font-size: 3rem !important;
-    background: linear-gradient(270deg, #090c10 0%, #0f151e 90%, #090c10 100%);
+    background: linear-gradient(270deg, #090c10 20%, #131b26 90%, #090c10 100%);
     padding: 2rem;
     padding-left: 2rem;
     left: -2rem;
@@ -97,6 +130,11 @@ p, ul, span {
 }
 
 /* portfolio */
+#portfolio {
+    margin-top: 4rem;
+    transition: ease-in-out 0.3s;
+}
+
 .portfolio {
     padding-top: 4rem !important;
     padding-bottom: 0 !important;
@@ -312,6 +350,13 @@ p, ul, span {
     margin-right: 0.5rem !important;
 }
 
+.about-icon-2 {
+    font-size: 1rem !important;
+    top: 0.1rem !important;
+    position: relative !important;
+    margin-right: 0.5rem !important;
+}
+
 .about-txt {
     padding-right: 4rem !important;
 }
@@ -408,6 +453,10 @@ p, ul, span {
     padding-bottom: 1rem;
 }
 
+.ml2 {
+    margin-left: 2rem;
+}
+
 .mr3 {
     margin-right: 3rem;
 }
@@ -438,6 +487,14 @@ p, ul, span {
 
 .maxw33 {
     max-width: 33.33%;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.margin-auto {
+    margin: auto !important;
 }
 
 .course-img {
