@@ -1,623 +1,131 @@
 
-/* header */
-.header-bg {
-    background: linear-gradient(#090c10, #1b2431) !important;
+/**************************************************************/
+
+.w2-5 {
+	width: 2.5rem;
 }
 
-#intro {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-    padding: 1rem 2rem 1rem 2rem !important;
+.w6-5 {
+	width: 6.5rem;
 }
 
-.intro {
-    font-size: 0.75rem !important;
+.w75 {
+	width: 75% !important;
 }
 
-.intro-main {
-    font-weight: bold !important;
-    margin-bottom: 1rem !important;
+.h100 {
+	height: 100%;
 }
 
-.intro-sub {
-    margin-bottom: 8rem !important;
+.mw12 {
+	min-width: 12rem;
 }
 
-.intro-right {
-    margin-bottom: 0.5rem !important;
+.ma {
+	margin: auto !important;
 }
 
-#intro h1 {
-    font-size: 1rem !important;
-    margin-bottom: 0.5rem !important;
+/**************************************************************/
+
+.tac {
+	text-align: center;
 }
 
-#intro h4 {
-    font-size: 0.75rem !important;
-    margin-bottom: 0 !important;
+.taj {
+	text-align: justify !important;
 }
 
-#intro p {
-    margin-bottom: 0 !important;
+/**************************************************************/
+
+.navbar {
+	position: fixed !important;
 }
 
-.header-sub-row {
-    width: auto;
-    margin-right: 1rem;
+.site-navbar.bkg1 {
+	top: 0;
 }
 
+/**************************************************************/
 
-/* general */
-body, h1, h2, h3, h4, h5, h6, #header .profile h1, #hero p, .facts .count-box p, .facts .count-box a, .skills .progress .skill, .resume .resume-item h4 {
-    font-family: "Open Sans", sans-serif;
+a.active {
+	color: #bac964 !important;
 }
 
-.section-bg {
-    background: linear-gradient(#090c10, #0e131a) !important;
+.bkg1 {
+	background: #151515 !important;
 }
 
-#main {
-    background-color: #1d293a !important;
-    margin-left: 0 !important;
+.bkg2 {
+	background: #444 !important;
 }
 
-.color-sub {
-    color: #7a8793 !important;
+.bkg3 {
+	background: #222 !important;
 }
 
-.section-title {
-    padding-bottom: 2rem !important;
+.cw {
+	color: rgba(255, 255, 255, 1) !important;
 }
 
-.section-title h2 {
-    color: #687a8a !important;
-    font-size: 3rem !important;
-    background: linear-gradient(270deg, #090c10 20%, #131b26 90%, #090c10 100%);
-    padding: 2rem;
-    padding-left: 2rem;
-    left: -2rem;
-    padding-left: 5rem;
+.cw075 {
+	color: rgba(255, 255, 255, 0.75) !important;
 }
 
-    .section-title h2::after {
-        display: none;
-    }
-
-h1, h2, h3, h4, h5, .skills .progress .skill {
-    color: #e8e8ea !important;
+.cw05 {
+	color: rgba(255, 255, 255, 0.5) !important;
 }
 
-p, ul, span {
-    color: #b5b7c4 !important;
+.cw03 {
+	color: rgba(255, 255, 255, 0.3) !important;
 }
 
-.section-container {
-    padding-left: 3rem !important;
-    padding-right: 3rem !important;
+/**************************************************************/
+
+.site-footer, .site-footer a, .site-footer i {
+	padding: 5rem 0 1rem 0;
+	font-size: 0.6rem;
+	color: #ffffff25 !important;
 }
 
-.justified-txt {
-    text-align: justify !important;
-}
+/**************************************************************/
 
-.present {
-    font-size: 0.8rem !important;
-    font-weight: bold !important;
-}
-
-.hidden {
-    visibility: hidden !important;
-}
-
-.pb2 {
-    padding-bottom: 2rem !important;
-}
-
-.social-links .bx {
-    font-size: 1.3rem !important;
-    color: #4e84b9 !important;
-}
-
-.rounded-circle {
-    border-radius: 45% !important;
-}
-
-.navbar-desc {
-    text-align: center !important;
-    margin-top: 0.5rem !important;
-}
-
-/* portfolio */
-#portfolio {
-    margin-top: 4rem;
-    transition: ease-in-out 0.3s;
-}
-
-.portfolio {
-    padding-top: 4rem !important;
-    padding-bottom: 0 !important;
-}
-
-.portfolio-title {
-    font-weight: bold !important;
-}
-
-.portfolio-row {
-    padding-top: 1rem !important;
-    padding-bottom: 8rem !important;
-}
-
-.portfolio-mid-row {
-    padding-top: 1rem !important;
-}
-
-.portfolio-icon .bx {
-    font-size: 1.5rem !important;
-    margin: 0.5rem 0.25rem 0 0 !important;
+.link {
     position: relative !important;
-    top: 0.3rem !important;
-}
-
-.portfolio-icon {
-    color: #4e84b9 !important;
-}
-
-    .portfolio-icon:hover {
-        color: #58a6ff !important;
-    }
-
-.intro-icon {
-    color: #4e84b9 !important;
-}
-
-    .intro-icon:hover {
-        color: #58a6ff !important;
-    }
-
-.portfolio-right {
-    padding-left: 1.5rem !important;
-}
-
-.vid-container {
-    float: left !important;
-    width: 100% !important;
-    height: 0 !important;
-    padding-bottom: 56.25% !important;
-    position: relative !important;
-}
-
-.vid {
-    position: absolute !important;
-    width: 100% !important;
-    height: 100% !important;
-}
-
-.vid-main {
-    padding-right: 2rem !important;
-    padding-bottom: 1rem !important;
-}
-
-.vid-portfolio {
-    margin-bottom: 1rem;
-}
-
-/* resume */
-.resume .resume-item h5 {
-    background: #1a212b !important;
-    border-radius: 0.4rem !important;
-}
-
-.resume .resume-item::before {
-    background: #151f2d !important;
-    border: 2px solid #565f75 !important;
-}
-
-.resume .resume-item {
-    border-left: 2px solid #565f75 !important;
-    margin-left: 2.25rem !important;
-    padding-right: 6rem !important;
-}
-
-.resume-item-1 {
-    margin-top: 0.5rem !important;
-    margin-bottom: 3rem !important;
-}
-
-.resume-item-join {
-    padding-bottom: 3rem !important;
-}
-
-.resume-item-join-first {
-    margin-top: 0.5rem !important;
-    padding-bottom: 1.5rem !important;
-}
-
-.resume-item-join-last {
-    margin-top: 0rem !important;
-    padding-bottom: 0rem !important;
-    margin-bottom: 3rem !important;
-}
-
-.resume .resume-title {
-    font-size: 1.75rem !important;
-    margin-top: 5rem !important;
-    margin-bottom: 2rem !important;
-}
-
-.resume-title-line {
-    color: white !important;
-    margin-top: -0.5rem !important;
-    margin-left: 0.5rem !important;
-    background: linear-gradient(to right, #565f75, #2e425e00) !important;
-    height: 2.5px !important;
-}
-
-.portfolio-sep-line {
-    color: white !important;
-    background: linear-gradient(to right, #2e425e00, #687a8a, #2e425e00) !important;
-    height: 2.5px !important;
-    opacity: 1;
-    margin-top: 10rem !important;
-    margin-bottom: 10rem !important;
-    width: 100%;
-}
-
-.right-img-1 {
-    width: 3rem !important;
-    height: 3rem !important;
-    margin-right: 0.5rem;
-}
-
-.right-img-2 {
-    width: 10rem !important;
-    height: 5rem !important;
-    margin-right: 0.5rem;
-}
-
-.right-img-pendulo {
-    width: 50% !important;
-    height: 25% !important;
-    margin-right: 0.5rem;
-}
-
-.right-img-ue-tt {
-    width: 40% !important;
-    height: 20% !important;
-    margin-right: 3% !important;
-    margin-left: -2% !important;
-}
-
-.right-img-ue-st {
-    width: 16% !important;
-    height: 8% !important;
-    margin-right: 3% !important;
-    margin-left: 1% !important;
-}
-
-.right-space {
-    margin-bottom: 2rem;
-}
-
-.platform-img-tt {
-    width: 9% !important;
-    height: 9% !important;
-    margin: 3% !important;
-}
-
-.platform-img-st {
-    width: 4% !important;
-    height: 4% !important;
-    margin: 3% !important;
-}
-
-.st-title {
-    margin-bottom: 1rem !important;
-}
-
-.resume .ed-item {
-    margin-bottom: 2rem !important;
-    margin-top: 0.5rem !important;
-}
-
-.resume .ed-item ul {
-    padding-left: 2.5rem !important;
-    padding-right: 2rem !important;
-}
-
-.resume .resume-item ul {
-    padding-left: 3.5rem !important;
-}
-
-.resume .ed-item ul li {
-    padding-bottom: 10px;
-}
-
-.rol {
-    padding-left: 1rem !important;
-    padding-bottom: 0.5rem !important;
-}
-
-.course-item {
-    margin-bottom: 1rem !important;
-}
-
-.about-icon {
-    font-size: 1.25rem !important;
-    top: 0.2rem !important;
-    position: relative !important;
-    margin-right: 0.2rem !important;
-}
-
-.about-icon-2 {
-    font-size: 1rem !important;
-    top: 0.1rem !important;
-    position: relative !important;
-    margin-right: 0.3rem !important;
-}
-
-.pt02 {
-    padding-top: 0.2rem !important;
-}
-
-.about-txt {
-    padding-right: 4rem !important;
-}
-
-.skills .progress-bar-wrap {
-    background: #1a589533 !important;
-}
-
-.contact {
-    padding-bottom: 0 !important;
-    border-radius: 0.4rem !important;
-}
-
-.skill-container {
-    padding: 0.5rem !important;
-}
-
-.skill-content {
-    padding: 1.75rem !important;
-    background: linear-gradient(#1a212b, #2e425e00) !important;
-}
-
-.skill-title {
-    margin-bottom: 1rem !important;
-}
-
-.skill-text {
-    padding-left: 0 !important;
-    margin-bottom: 0 !important;
-    padding-bottom: 0.25rem !important;
-    font-size: 0.95rem !important;
-}
-
-.skill-img {
-    width: 4rem !important;
-    height: 4rem !important;
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-    margin-bottom: 0.75rem !important;
-}
-
-.exp-content {
-    padding: 0.5rem !important;
-    background: linear-gradient(#1a212b, #2e425e00) !important;
-    width: 100% !important;
-    margin: 0 !important;
-    border-radius: 0.4rem !important;
-}
-
-.exp-img {
-    width: auto !important;
-}
-
-.exp-title {
-    width: 80% !important;
-}
-
-.resume-link {
-    color: #b5b7c4 !important;
-    font-size: 1.5rem !important;
-    position: relative !important;
-    margin-left: 1rem !important;
-    top: 0.25rem !important;
-}
-
-    .resume-link:hover {
-        color: #627588 !important;
-    }
-
-.resume-img {
-    width: 3.5rem !important;
-    height: 3.5rem !important;
-    margin-top: 0.2rem !important;
+    top: 0.125rem !important;
 }
 
 .ed-img {
     width: 3.5rem !important;
     height: 3.5rem !important;
-    margin-top: 0.8rem !important;
 }
 
-.ed-1 {
-    margin-bottom: 0.1rem !important;
-}
-
-.img-width-height-100 {
-    width: 100%;
-    height: 100%;
-    padding-bottom: 1rem;
-}
-
-.img-width-100 {
-    width: 100%;
-    padding-bottom: 1rem;
-}
-
-.w33 {
-    width: 33% !important;
-}
-
-.w50 {
-    width: 50% !important;
-}
-
-.w16 {
-    width: 16% !important;
-}
-
-.ml2 {
-    margin-left: 2rem;
-}
-
-.mr3 {
-    margin-right: 3rem;
-}
-
-.mr4 {
-    margin-right: 4rem;
-}
-
-.mr5 {
-    margin-right: 5rem;
-}
-
-.mb2 {
-    margin-bottom: 2rem;
-}
-
-.mb12p {
-    margin-bottom: 12%;
-}
-
-.mb10p {
-    margin-bottom: 10%;
-}
-
-.mt2 {
-    margin-top: 2rem;
-}
-
-.maxw33 {
-    max-width: 33.33%;
-}
-
-.align-right {
-    text-align: right;
-}
-
-.margin-auto {
-    margin: auto !important;
-}
-
-.course-img {
-    width: 3.5rem !important;
-    height: 2rem !important;
-}
-
-    .resume-info h4 {
-        font-size: 18px !important;
-    }
-
-.skill-text h4 {
-    padding: 0 !important;
-    font-size: 18px !important;
-}
-
-.info-container {
-    padding-left: 1rem !important;
-}
-
-.language {
-    border-left: 2px solid #565f75 !important;
-}
-
-.language-img {
+.lang-img {
     width: 3rem !important;
     height: 2rem !important;
-    margin-top: 0.5rem !important;
 }
 
-.language-txt p {
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
+/**************************************************************/
+
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
-.language-title {
-    width: 60% !important;
+/**************************************************************/
+
+.vid-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
 }
 
-.contact .info {
-    border-radius: 0.4rem !important;
+.vid {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: none;
 }
 
-.contact .info h4 {
-    padding-left: 0 !important;
-}
-
-.contact .info p {
-    padding-left: 0 !important;
-}
-
-
-/* pdf */
-
-.header-txt {
-    font-size: 0.9rem !important;
-}
-
-.header-link {
-    color: #4e84b9 !important;
-}
-
-.header-link:hover {
-    color: #58a6ff !important;
-}
-
-
-/* icon colors */
-
-.icon-color-0 {
-    color: #4e84b9 !important;
-}
-
-.icon-color-1 {
-    background-image: linear-gradient(to bottom, #6600ff 0%, #ff9933 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.icon-color-2 {
-    color: #6c94bb !important;
-}
-
-.icon-color-3 {
-    color: darkred !important;
-}
-
-.icon-color-4 {
-    color: #b96060 !important;
-}
-
-.col10 {
-    margin-left: 8.33%;
-    margin-right: 8.33%;
-}
-
-.col8 {
-    margin-left: 16.66%;
-    margin-right: 16.66%;
-}
-
-.col7 {
-    margin-left: 20.83%;
-    margin-right: 20.83%;
-}
-
-.col6 {
-    margin-left: 25%;
-    margin-right: 25%;
-}
+/**************************************************************/
