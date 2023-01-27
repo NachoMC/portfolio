@@ -1,5 +1,5 @@
 
-/* Current date */
+// Current date
 const lastmm = 3;
 const lastyyyy = 2022;
 const today = new Date();
@@ -21,6 +21,13 @@ var y = (yyyy > 0) ? (yyyy + ((yyyy > 1) ? " years" : " year")) : "";
 document.getElementById("current-date").innerHTML = ((mm > 0) || (yyyy > 0)) ? ("(" + y + (((mm > 0) && (yyyy > 0)) ? " " : "") + m + ")") : "";
 
 
-function getVisitsCount(response) {
-    console.log("views: " + response.value);
+// Visits (if not dev)
+if (!window.location.href.includes("file://")) {
+    var xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://api.countapi.xyz/hit/nachomc.github.io-portfolio-pro/visits");
+    xhr.responseType = "json";
+    xhr.onload = function() {
+        console.log("visits: " + this.response.value);
+    }
+    xhr.send();
 }
