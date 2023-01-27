@@ -45,6 +45,18 @@
 	top: 0;
 }
 
+#navbar-left {
+	position: absolute;
+	right: 0;
+}
+
+#navbar-left-icon {
+	position: absolute;
+	right: 0;
+	top: 0.3rem;
+	font-size: 1.2rem;
+}
+
 /**************************************************************/
 
 a.active {
