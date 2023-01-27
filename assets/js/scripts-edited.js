@@ -19,3 +19,8 @@ if (mm == 12) {
 var m = (mm > 0) ? (mm + ((mm > 1) ? " months" : " month")) : "";
 var y = (yyyy > 0) ? (yyyy + ((yyyy > 1) ? " years" : " year")) : "";
 document.getElementById("current-date").innerHTML = ((mm > 0) || (yyyy > 0)) ? ("(" + y + (((mm > 0) && (yyyy > 0)) ? " " : "") + m + ")") : "";
+
+
+function getVisitsCount(response) {
+    console.log("views: " + response.value);
+}
