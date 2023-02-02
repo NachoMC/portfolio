@@ -31,9 +31,3 @@ if (!window.location.href.includes("file://")) {
     }
     xhr.send();
 }
-
-// Refresh videos
-document.querySelectorAll('.vid-container').forEach(video => {
-    var content = video.innerHTML;
-    video.innerHTML = content;
-});
