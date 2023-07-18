@@ -1,7 +1,7 @@
 
 // Current date
-const lastmm = 3;
-const lastyyyy = 2022;
+const lastmm = 7;
+const lastyyyy = 2023;
 const today = new Date();
 var todaymm = String(today.getMonth() + 1).padStart(2, '0');
 var todayyyyy = today.getFullYear();
