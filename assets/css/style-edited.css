@@ -27,6 +27,12 @@
 
 /**************************************************************/
 
+.br7 {
+	border-radius: 7px;
+}
+
+/**************************************************************/
+
 .tac {
 	text-align: center;
 }
@@ -67,16 +73,20 @@ a.active {
 	color: #bac964 !important;
 }
 
+.bkg0 {
+	background: #0f0f0f !important;
+}
+
 .bkg1 {
-	background: #151515 !important;
+	background: #1a1b1d !important;
 }
 
 .bkg2 {
-	background: #444 !important;
+	background: #262a2b !important;
 }
 
 .bkg3 {
-	background: #222 !important;
+	background: #33373a !important;
 }
 
 .cw {
