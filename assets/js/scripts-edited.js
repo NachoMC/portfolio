@@ -1,33 +1,22 @@
 
 // Current date
-const lastmm = 7;
-const lastyyyy = 2023;
+const last_mm = 7;
+const last_yyyy = 2023;
 const today = new Date();
-var todaymm = String(today.getMonth() + 1).padStart(2, '0');
-var todayyyyy = today.getFullYear();
-var yyyy = todayyyyy - lastyyyy;
-var mm = todaymm - lastmm;
-if (todaymm < lastmm) {
+const today_mm = String(today.getMonth() + 1).padStart(2, '0');
+const today_yyyy = today.getFullYear();
+let yyyy = today_yyyy - last_yyyy;
+let mm = today_mm - last_mm;
+if (today_mm < last_mm) {
     mm += 12;
     yyyy--;
 }
 mm++;
-if (mm == 12) {
+if (mm === 12) {
     mm = 0;
     yyyy++;
 }
-var m = (mm > 0) ? (mm + ((mm > 1) ? " months" : " month")) : "";
-var y = (yyyy > 0) ? (yyyy + ((yyyy > 1) ? " years" : " year")) : "";
+const m = (mm > 0) ? (mm + ((mm > 1) ? " months" : " month")) : "";
+const y = (yyyy > 0) ? (yyyy + ((yyyy > 1) ? " years" : " year")) : "";
 document.getElementById("current-date").innerHTML = ((mm > 0) || (yyyy > 0)) ? ("(" + y + (((mm > 0) && (yyyy > 0)) ? " " : "") + m + ")") : "";
 
-
-// Visits (if not dev)
-if (!window.location.href.includes("file://")) {
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://api.countapi.xyz/hit/nachomc.github.io-portfolio-pro/visits");
-    xhr.responseType = "json";
-    xhr.onload = function() {
-        console.log("visits: " + this.response.value);
-    }
-    xhr.send();
-}
