@@ -20,3 +20,5 @@ const m = (mm > 0) ? (mm + ((mm > 1) ? " months" : " month")) : "";
 const y = (yyyy > 0) ? (yyyy + ((yyyy > 1) ? " years" : " year")) : "";
 document.getElementById("current-date").innerHTML = ((mm > 0) || (yyyy > 0)) ? ("(" + y + (((mm > 0) && (yyyy > 0)) ? " " : "") + m + ")") : "";
 
+document.getElementById("current-xp").innerHTML = "" + (today_yyyy - 2021);
+
